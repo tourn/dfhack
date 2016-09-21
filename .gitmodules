@@ -13,3 +13,6 @@
 [submodule "scripts2"]
 	path = scripts
 	url = git://github.com/dfhack/scripts.git
+[submodule "plugins/webfort"]
+	path = plugins/webfort
+	url = https://github.com/Ankoku/df-webfort.git

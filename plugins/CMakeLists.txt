@@ -1,5 +1,8 @@
 INCLUDE(Plugins.cmake)
 
+OPTION(BUILD_WEBFORT "Build the webfort plugin" ON)
+    add_subdirectory(webfort/server)
+
 OPTION(BUILD_STONESENSE "Build stonesense (needs a checkout first)." OFF)
 if(BUILD_STONESENSE)
     add_subdirectory (stonesense)
